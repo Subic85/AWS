@@ -1,0 +1,145 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="3m95v5aqSQOkOTfQhNGS">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1aZPWTnQ-hYUrCH6Ez6O-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Linux&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1aZPWTnQ-hYUrCH6Ez6O-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Linux is a very powerful Open Source Operating System. It is mode command based and efficient compared to Windows. Android Operating System is also created using Linix.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="760" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bJsxCxJ8z6gc9C7bD2TN-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;h2&gt;What is an OS -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Operating System is an Interface between Users / Apps and the Hardware.&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="50" width="760" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QvA8yNs-BB_8HfK7_zAh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="760" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QvA8yNs-BB_8HfK7_zAh-8" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="190" width="90" x="60" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QvA8yNs-BB_8HfK7_zAh-2" parent="QvA8yNs-BB_8HfK7_zAh-8" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Resource Management" vertex="1">
+          <mxGeometry height="190" width="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QvA8yNs-BB_8HfK7_zAh-3" parent="QvA8yNs-BB_8HfK7_zAh-8" style="rounded=0;whiteSpace=wrap;html=1;" value="CPU" vertex="1">
+          <mxGeometry height="50" width="70" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QvA8yNs-BB_8HfK7_zAh-4" parent="QvA8yNs-BB_8HfK7_zAh-8" style="rounded=0;whiteSpace=wrap;html=1;" value="Storage Drive" vertex="1">
+          <mxGeometry height="60" width="70" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="190" width="90" x="160" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-2" parent="zQhQzCSvZs7QWjj12YHX-1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Resource Management" vertex="1">
+          <mxGeometry height="190" width="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-3" parent="zQhQzCSvZs7QWjj12YHX-1" style="rounded=0;whiteSpace=wrap;html=1;" value="P1" vertex="1">
+          <mxGeometry height="50" width="70" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-4" parent="zQhQzCSvZs7QWjj12YHX-1" style="rounded=0;whiteSpace=wrap;html=1;" value="P2" vertex="1">
+          <mxGeometry height="60" width="70" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Memory Management" vertex="1">
+          <mxGeometry height="190" width="90" x="270" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="File System Ma&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;negement&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="90" x="375" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Permissions / Security Management" vertex="1">
+          <mxGeometry height="190" width="90" x="490" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-14" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="190" width="90" x="600" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-15" parent="zQhQzCSvZs7QWjj12YHX-14" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="User Interface Management" vertex="1">
+          <mxGeometry height="190" width="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-16" parent="zQhQzCSvZs7QWjj12YHX-14" style="rounded=0;whiteSpace=wrap;html=1;" value="GUI" vertex="1">
+          <mxGeometry height="50" width="70" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-17" parent="zQhQzCSvZs7QWjj12YHX-14" style="rounded=0;whiteSpace=wrap;html=1;" value="CLI" vertex="1">
+          <mxGeometry height="60" width="70" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;Key Functions of an OS&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;h2&gt;Why Linux?&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Cloud is mainly linux, its faster, more secure, platform independent.&lt;/li&gt;&lt;li&gt;Best Operating System for Systems (where limitted User Interface is needed)&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;h2&gt;Who Uses Linux?&lt;/h2&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Tech Companies&lt;/li&gt;&lt;li&gt;Developers&lt;/li&gt;&lt;li&gt;Super Computers&lt;/li&gt;&lt;li&gt;Research Labs&lt;/li&gt;&lt;li&gt;Embeded systems&lt;/li&gt;&lt;li&gt;Iot (Internet of Things basically all smart devices)&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;h2&gt;What is Kali Linux?&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Used by Cyber Security for Ethical hacking.&amp;nbsp;Many ready to use tools out of the box that can be used for performance testing, penetration testing, etc&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="320" width="760" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;h2&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Birth of C&lt;/span&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;The C programming language was introduced by Dennis Ritchie at Bell Labs in the early 1970s primarily to develop the Unix operating system&lt;/span&gt;&lt;/li&gt;&lt;li&gt;It was designed to address the limitations of existing languages like B and assembly language by providing a balance of low-level hardware access and high-level, portable programming features.&lt;/li&gt;&lt;li&gt;This was basically an interface (intermediatory) between Assembly Level Language and High Level Languag&lt;/li&gt;&lt;li&gt;C Language is also portable. can run in any hardware. It became primary programming language to develop Operating System.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="760" x="40" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;fontSize=12;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;h2&gt;Birth of UNIX&lt;/h2&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;Development of the Unix operating system began in 1969 at AT&amp;amp;T Bell Labs by Ken Thompson and Dennis Ritchie.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;The first edition (Unix 1st Edition) was released on November 3, 1971, accompanied by the first edition of the Unix Programmer&#39;s Manual&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="760" x="40" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;h2&gt;History&lt;/h2&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="40" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;h2&gt;UNIX Features&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="370" width="760" x="40" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Multi Tasking" vertex="1">
+          <mxGeometry height="170" width="110" x="50" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APP 1" vertex="1">
+          <mxGeometry height="60" width="90" x="60" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APP 2" vertex="1">
+          <mxGeometry height="60" width="90" x="60" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Multi User" vertex="1">
+          <mxGeometry height="170" width="110" x="200" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="root" vertex="1">
+          <mxGeometry height="60" width="90" x="210" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="user1" vertex="1">
+          <mxGeometry height="60" width="90" x="210" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Portable" vertex="1">
+          <mxGeometry height="170" width="110" x="340" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hardware 1" vertex="1">
+          <mxGeometry height="60" width="90" x="350" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hardware 2" vertex="1">
+          <mxGeometry height="60" width="90" x="350" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="O/S" vertex="1">
+          <mxGeometry height="30" width="155" x="480" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kernel" vertex="1">
+          <mxGeometry height="40" width="155" x="480" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Shell" vertex="1">
+          <mxGeometry height="40" width="155" x="480" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APP 1" vertex="1">
+          <mxGeometry height="60" width="85" x="480" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APP 2" vertex="1">
+          <mxGeometry height="60" width="75" x="560" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;UNIX is Portable and can run o any type of Hardware because it was built on C and C is Portable.&lt;/li&gt;&lt;li&gt;UNIX was NOT Open Surce and Users had to buy Licence. Companies baught UNIX Licence and enhanced it to work best with thier hardware. Examples&lt;/li&gt;&lt;ol&gt;&lt;li&gt;IBM AIX - Advanced Interactive Executive&lt;/li&gt;&lt;li&gt;HP - UX&lt;/li&gt;&lt;li&gt;Sun&amp;nbsp; Micro System - Solaris&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="730" x="50" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Hierarchial&amp;nbsp;&lt;div&gt;File System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="120" x="660" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;h2&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Birth of Linux&lt;/span&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;in 1991, Linus Torvalds, only 21 years old, launched a Unix Like OS but kept is free and Open Source.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;This OS was reliable, Secure and Portable.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;As this was Open Sourced, it was easier for people to make controlled ammends to it and keep improving it.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;This was mainly Virus Free becasue of it Open source nature, many users could contribute to fixing vulnarablilties&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Same Key Characteristics as UNIX like&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;Multi-Tasking&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Multi User&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Portable&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Kernel - Shell - User Model&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Hierarchical File System&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="760" x="40" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;h2&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Linux Distributions&lt;/span&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;Debian --&amp;nbsp;General Purpose, can be used everywhere (including embedded system, stable, oldest)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Ubuntu --&amp;nbsp;Desktop frieldly distribution. Created on top of Debian. Beginer friendly&lt;/li&gt;&lt;li style=&quot;&quot;&gt;RedHat Enterprise Linux -- RHEL --&amp;nbsp;Enterprised grade distribution. Commercial grade. Paid version&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Fedora -- Cutting edge distribution. Latest sofware and features appear here first. Sponsored by RHEL&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Kali Linux -- Security focused distribution used for testing security. Preloaded with security related features. Mainly used by Ethical Hackers.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Centos -- Community Linux derived from RHEL. Free version of RHEL.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Amazon Linux -- Optimized for AWS&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="760" x="35" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="zQhQzCSvZs7QWjj12YHX-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;h2&gt;Basic Linux Commands&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="1060" width="780" x="20" y="2210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

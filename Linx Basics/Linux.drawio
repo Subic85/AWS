@@ -4,14 +4,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zws2r8nakgBWQlqckc_b-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Text" vertex="1">
-          <mxGeometry height="30" width="60" x="330" y="390" as="geometry" />
-        </mxCell>
         <mxCell id="1aZPWTnQ-hYUrCH6Ez6O-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Linux&lt;/h1&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="390" y="40" as="geometry" />
         </mxCell>
         <mxCell id="1aZPWTnQ-hYUrCH6Ez6O-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Linux is a very powerful Open Source Operating System. It is mode command based and efficient compared to Windows. Android Operating System is also created using Linix.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="760" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bJsxCxJ8z6gc9C7bD2TN-2" edge="1" parent="1" source="bJsxCxJ8z6gc9C7bD2TN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1aZPWTnQ-hYUrCH6Ez6O-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJsxCxJ8z6gc9C7bD2TN-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;h2&gt;What is an OS&lt;/h2&gt;&lt;div&gt;Operating System is an Interface between Users / Apps and the Hardware.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="760" x="40" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

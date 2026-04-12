@@ -1,4 +1,5 @@
-# Load Balancer <span style="float:right;font-size: 12px;">12<sup>th</sup> April 2026 Puneet Gavri</span>
+# Load Balancer 
+###### 12<sup>th</sup> April 2026 Puneet Gavri
 
 A load balancer acts as a **traffic cop** sitting in front of servers, efficiently distributing incoming network traffic across multiple backend servers to ensure no single server becomes overwhelmed.  
 It also improves System Availability by avoiding Single point of Failure

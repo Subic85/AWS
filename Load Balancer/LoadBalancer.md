@@ -4,7 +4,7 @@
 A load balancer acts as a **traffic cop** sitting in front of servers, efficiently distributing incoming network traffic across multiple backend servers to ensure no single server becomes overwhelmed.  
 It also improves System Availability by avoiding Single point of Failure
 
-![Load Balancer](images/LoadBalancer.svg)
+![Load Balancer](images/LoadBalancer.drawio.svg)
 
 ## Benefits of a Load Balancer
 1. **High Availability & Reliability**  
@@ -29,7 +29,7 @@ AWS ELB Service is part of EC2 Service. **This is a Regional Service so it can o
 2. **Network Load Balancer**
 2. **Network Load Balancer**
 
-Before we look at these types of Load Balancers, we need to first understand the [OSI model and its Seven-Layer Framework](#osi-model---open-stystem-interconnection).
+Before we look at these types of Load Balancers, we need to first understand the [OSI model and its Seven-Layer Framework](#osi-model---open-system-interconnection).
 
 1. **Application Load Balancer**  
 An Application Load Balancer (ALB) operates at Layer 7 of the OSI model. It has capability to intelligently route incoming HTTP/HTTPS traffic to various targets like
@@ -105,8 +105,8 @@ Note -- We can add multiple target groups, each having weight from 0 to 99. Requ
 
 ## Extras  
 
-## OSI Model - Open Stystem Interconnection
-OSI model is a conceptual seven-layer framework created by ISO that standardizes netwroking functions to enable diverse systems to communicate. Data Communication is deveided into seven layers from Physical (Layer 1) to User Application (Layer 7).
+## OSI Model - Open System Interconnection
+OSI model is a conceptual seven-layer framework created by ISO that standardizes networking functions to enable diverse systems to communicate. Data Communication is divided into seven layers from Physical (Layer 1) to User Application (Layer 7).
 
 ### The Seven Layers of the OSI Model
 

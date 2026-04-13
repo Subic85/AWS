@@ -1,4 +1,5 @@
 # Linux
+###### 14<sup>th</sup> FEb 2026 TA Aarav
 
 Linux is a very powerful Open Source Operating System. It is mode command based and efficient compared to Windows.   
 Android Operating System is also created using Linux.
@@ -68,3 +69,149 @@ In 1991, Linus Torvalds, only 21 years old, launched a Unix Like OS but kept is 
 7. Amazon Linux -- Optimized for AWS
 
 ## Basic Linux Commands
+We can try out these commands in any Linux System e.g. WSL on Windows, or actual Linux System or online [@KllrCoda](https://killercoda.com/playgrounds)
+
+### pwd
+Prints the working directory where the command is being run.
+```
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ 
+```
+
+### ls
+Prints the Contents of the current Directory
+We can use many options along with this command. some of the most used options are
+* -l : This prints all files and folders in a list format
+* -a : This prints all files, including hidden files (files starting with .)
+* -r : Sort order is reversed to descending instead of ascending 
+* -t : Sort by time (default is name)
+* -s : print allocated size of each file
+* -S : Sort by Size (largest first)
+
+We can combine these options in any order to apply multiple options. E.g shown below
+```
+root@ubuntu:~$ ls -lart
+total 52
+-rw-r--r--  1 root root  161 Apr 22  2024 .profile
+-rw-------  1 root root   10 Feb 10  2025 .bash_history
+drwx------  2 root root 4096 Apr  1 08:10 .ssh
+drwxr-xr-x 22 root root 4096 Apr  1 08:11 ..
+lrwxrwxrwx  1 root root    1 Apr  1 08:11 filesystem -> /
+-rw-r--r--  1 root root  109 Apr  1 08:11 .vimrc
+-rw-r--r--  1 root root 3234 Apr  1 08:11 .bashrc
+-rw-r--r--  1 root root  165 Apr  1 08:11 .wget-hsts
+drwxr-xr-x  4 root root 4096 Apr 13 01:58 .theia
+drwxr-xr-x  2 root root 4096 Apr 13 01:58 MyLinuxDirectory2
+drwxr-xr-x  2 root root 4096 Apr 13 01:58 MyLinuxDirectory4
+drwxr-xr-x  2 root root 4096 Apr 13 01:58 MyLinuxDirectory3
+drwx------  8 root root 4096 Apr 13 01:58 .
+drwxr-xr-x  3 root root 4096 Apr 13 02:05 MyLinuxDirectory1
+root@ubuntu:~$ 
+```
+
+### mkdir
+Creates a new Directory (if not present). We can supply multiple directory names and the command will create all directories.
+```
+root@ubuntu:~$ mkdir MyLinuxDirectory1 MyLinuxDirectory2
+root@ubuntu:~$ ls -lrt
+total 8
+lrwxrwxrwx 1 root root    1 Apr  1 08:11 filesystem -> /
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory2
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory1
+root@ubuntu:~$ mkdir MyLinuxDirectory1 MyLinuxDirectory3 MyLinuxDirectory4
+mkdir: cannot create directory 'MyLinuxDirectory1': File exists
+root@ubuntu:~$ ls -lrt
+total 16
+lrwxrwxrwx 1 root root    1 Apr  1 08:11 filesystem -> /
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory2
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory1
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory4
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory3
+root@ubuntu:~$ 
+```
+
+### cd
+Change Directory. Use this to change working directory
+We can use cd
+``` linux
+root@ubuntu:~$ ls -lrt
+total 16
+lrwxrwxrwx 1 root root    1 Apr  1 08:11 filesystem -> /
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory2
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory1
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory4
+drwxr-xr-x 2 root root 4096 Apr 13 02:11 MyLinuxDirectory3
+root@ubuntu:~$ cd MyLinuxDirectory1
+root@ubuntu:~/MyLinuxDirectory1$ pwd
+/root/MyLinuxDirectory1
+root@ubuntu:~/MyLinuxDirectory1$ cd ../MyLinuxDirectory2
+root@ubuntu:~/MyLinuxDirectory2$ mkdir MyNewDir
+root@ubuntu:~/MyLinuxDirectory2$ cd MyNewDir
+root@ubuntu:~/MyLinuxDirectory2/MyNewDir$ pwd
+/root/MyLinuxDirectory2/MyNewDir
+root@ubuntu:~/MyLinuxDirectory2/MyNewDir$ cd
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ 
+```
+
+### touch
+This helps us create file(s) in the working directory
+```
+root@ubuntu:~/MyLinuxDirectory1$ ls -lrt
+total 4
+drwxr-xr-x 2 root root 4096 Apr 13 02:01 MyNewDir
+root@ubuntu:~/MyLinuxDirectory1$ touch file1.txt file2.txt
+root@ubuntu:~/MyLinuxDirectory1$ ls -lrt
+total 4
+drwxr-xr-x 2 root root 4096 Apr 13 02:01 MyNewDir
+-rw-r--r-- 1 root root    0 Apr 13 02:05 file2.txt
+-rw-r--r-- 1 root root    0 Apr 13 02:05 file1.txt
+root@ubuntu:~/MyLinuxDirectory1$ 
+```
+
+### nano
+GNU nano is a beginner-friendly, modeless command-line text editor for Unix-like systems, widely used for quick edits and configuration management.
+It creates file in the working directory if it does not exists
+```
+root@ubuntu:~/MyLinuxDirectory1$ ls -lrt
+total 0
+root@ubuntu:~/MyLinuxDirectory1$ nano file.txt
+root@ubuntu:~/MyLinuxDirectory1$ cat file.txt
+Hi This is my file
+root@ubuntu:~/MyLinuxDirectory1$ 
+```
+In above example, non file was edited on the nano editor. to save the file, press Control + S and to exit Control + X. To exit without Saving, press Control + X. User is prompted to save changes or not. choose Y for Yes and N for no.
+
+### vi /vim
+vi is a mode based file editor. It has following basic modes
+1. Command Mode - This is the default mode when opened. Every Keystroke is interpreted as a command. e.g i for coming to edit mode, x to delete character at cursor or dd to delete entire line, move, etc
+2. Insert Mode : This is the mode for typing, to get to this mode, press i. Press escape to go back to command mode.
+3. Last line (Ex) Mode : Used for saving or quitting. Press : from command mode to access. w! to save, wq! to save and quit, q! to quit without saving 
+```
+root@ubuntu:~/MyLinuxDirectory1$ vi file.txt
+root@ubuntu:~/MyLinuxDirectory1$ cat file.txt
+Hi This is my file
+I have added this line using vi editor
+root@ubuntu:~/MyLinuxDirectory1$ 
+```
+
+### cat
+Already seen in previous example, cat command is used to display contents of a file.
+We can also use cat to concatenate data of multiples files
+```
+root@ubuntu:~/MyLinuxDirectory1$ nano file2.txt
+root@ubuntu:~/MyLinuxDirectory1$ cat file.txt file2.txt
+Hi This is my file
+I have added this line using vi editor
+
+This is my file 2
+root@ubuntu:~/MyLinuxDirectory1$ 
+```
+
+### clear
+Use this to clear the command window.
+```
+clear
+```

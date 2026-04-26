@@ -478,3 +478,9 @@ This can ebe used to add (+), remove(-) or explicitly set (=) permissions. Examp
 ### kill / pkill
 
 ### ip addr show
+
+### tail ?
+
+### sha1sum
+
+### stress

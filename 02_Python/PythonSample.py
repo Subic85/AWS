@@ -1,0 +1,6 @@
+my_tuple = (1, "two", "two", 3.5, True, False )
+print(my_tuple)
+print(my_tuple[2])
+print(my_tuple.count("two"))
+print(my_tuple.__len__())
+print(type(my_tuple))

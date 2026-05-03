@@ -3,6 +3,35 @@
 
 Python was invented in 1991 by Guido Van Rosum (35 years old then) and its named after his favorite show Python's flying circus.
 
+* [Why Python](#why-python)
+* [Where to Run Python Code](#where-to-run-our-python-code)
+    * [Jupiter Notebook Vs VS Code](#jupiter-notebook-vs-vscode)
+* Python Language Basics
+    * [Variables](#variables)
+    * [Data Types](#data-types)
+    * [Type Casting](#type-casting)
+    * [Concatenation](#concatenation)
+    * [User Input from Console](#input)
+    * [Operators](#operators)
+        * [Arithmetic Operators](#arithmetic-operators)
+        * [Exponential Operators](#exponential-operators)
+        * [Logical Operator](#logical-operators)
+        * [Comparison Operator](#comparison-operators)
+        * [Operator Precedence](#operator-precedence)
+    * [Indexing](#indexing)
+    * [Slicing](#slicing)
+    * Programming Constructs
+        * [Conditional Statements](#conditional-statements)
+        * [Loops](#loops)
+        * [Functions](#functions)
+    * [Collections](#collections)
+        * [List](#list)
+        * [Tuple](#tuple)
+        * [Set](#set)
+        * [Dictionary](#dictionary)
+
+
+
 ## Why Python?
 1. Python is a beginner friendly language
 2. It has large library domain (including ENgineering Mathematics)

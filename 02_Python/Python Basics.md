@@ -461,12 +461,12 @@ Set is an Un-Ordered Collection with following properties
 2. Un-Ordered - which means we cannot access elements by an index number.
 3. Partially Mutable, we can perform following operations
     1. Add an element
-	2. Remove an element (remove and throw error if element not found)
-	3. Discard (remove but don't throw error if element not found)
-	4. We can union two Sets resulting in values for both (no duplicates as we cannot have duplicates). Basically, we can perform Union operation, not Union All.
-	5. We can perform intersection of two sets which will result in only common elements from the two sets (without duplicates off course)
-	6. We can perform difference that will give list elements from first set which are missing in the second. Like Left Outer Join
-	7. We can perform symmetric difference, which will give non common elements from both. This is like opposite of intersection? 
+	  2. Remove an element (remove and throw error if element not found)
+	  3. Discard (remove but don't throw error if element not found)
+	  4. We can union two Sets resulting in values for both (no duplicates as we cannot have duplicates). Basically, we can perform Union operation, not Union All.
+	  5. We can perform intersection of two sets which will result in only common elements from the two sets (without duplicates off course)
+	  6. We can perform difference that will give list elements from first set which are missing in the second. Like Left Outer Join
+	  7. We can perform symmetric difference, which will give non common elements from both. This is like opposite of intersection? 
 4. **Defined using Curly braces {}**  
 
 

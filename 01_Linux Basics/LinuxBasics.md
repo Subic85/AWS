@@ -461,7 +461,7 @@ This can ebe used to add (+), remove(-) or explicitly set (=) permissions. Examp
     ```
 
 ### grep
-
+This is **Global Regular Expression Print** command used for regular expression based filtering for resources of output of commands
 
 ### ps1
 

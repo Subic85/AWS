@@ -13,6 +13,7 @@ Android Operating System is also created using Linux.
     * [Birth of Linux](#birth-of-linux)
 * [Linux Distributions](#linux-distributions)
 * [Basic Linux Commands](#basic-linux-commands)
+
     |    |     |     |     |     |
     | ---| --- | --- | --- | --- |
     | [pwd](#pwd)| [ls](#ls) | [mkdir](#mkdir) | [cd](#cd) | [touch](#touch) |

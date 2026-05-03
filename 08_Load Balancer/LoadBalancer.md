@@ -1,6 +1,15 @@
 # Load Balancer 
 ###### 12<sup>th</sup> April 2026 Puneet Gavri
 
+* [What is a Load Balancer](#what-is-a-load-balancer)
+* [Benefits of a Load Balancer](#benefits-of-a-load-balancer)
+* [AWS ELB - Elastic Load Balancer](#aws-elb---elastic-load-balancer)
+* [Types of Elastic Load Balancers in AWS](#types-of-elastic-load-balancers-in-aws)
+    * [Application Load Balancer](#application-load-balancer)
+    * [Network Load Balancer](#network-load-balancer)
+    * [Gateway Load Balancer](#gateway-load-balancer)
+
+## What is a Load Balancer
 A load balancer acts as a **traffic cop** sitting in front of servers, efficiently distributing incoming network traffic across multiple backend servers to ensure no single server becomes overwhelmed.  
 It also improves System Availability by avoiding Single point of Failure
 
@@ -27,11 +36,11 @@ AWS ELB Service is part of EC2 Service. **This is a Regional Service so it can o
 ## Types of Elastic Load Balancers in AWS
 1. **Application Load Balancers**
 2. **Network Load Balancer**
-2. **Network Load Balancer**
+2. **Gateway Load Balancer**
 
 Before we look at these types of Load Balancers, we need to first understand the [OSI model and its Seven-Layer Framework](#osi-model---open-system-interconnection).
 
-1. **Application Load Balancer**  
+### Application Load Balancer
 An Application Load Balancer (ALB) operates at Layer 7 of the OSI model. It has capability to intelligently route incoming HTTP/HTTPS traffic to various targets like
     1. EC2 instances
     2. Containers
@@ -50,7 +59,7 @@ An Application Load Balancer (ALB) operates at Layer 7 of the OSI model. It has 
 
     ![Application Load balancer](images/ApplicationLoadBalancer.drawio.svg)
 
-2. **Network Load Balancer**  
+### Network Load Balancer
 A Network Load Balancer (NLB) operates at the OSI Layer 4 of the OSI model. It has capability to efficiently route high-volume TCP/UDP traffic across various targets like
     1. EC2 Servers
     2. Containers
@@ -60,7 +69,7 @@ A Network Load Balancer (NLB) operates at the OSI Layer 4 of the OSI model. It h
 
     ![Network Load Balancer](images/NetworkLoadBalancer.drawio.svg)
 
-3. **Gateway Load Balancer**  
+### Gateway Load Balancer
 The AWS Gateway Load Balancer (GWLB) is a managed service designed to deploy, scale, and manage third-party virtual appliances such as firewalls, intrusion detection systems (IDS), and deep packet inspection (DPI) systems. Unlike other load balancers, it operates at Layer 3 (Network Layer) of the OSI model, making it a transparent "bump-in-the-wire" that sits in your network path without altering the traffic source or destination. 
 
 ## Demo

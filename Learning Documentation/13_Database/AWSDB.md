@@ -55,6 +55,8 @@ Aurora and RDS --> Create Database --> Full Configuration
         4. Replication from Primary to Secondary happens in RealTime (synchronous?)
         5. Secondary DBs are not just sitting idle, they are used as read replicas. 
         6. All are on SSD (better performant)
+        7. Size of Standby is same are Primary
+        8. Once Standby per AZ
 
     ![Availability and Durability](images/RDS_Availability.svg)
 5. Settings
@@ -82,3 +84,29 @@ Aurora and RDS --> Create Database --> Full Configuration
 ### Parameter Group
 We can use this to configure default settings, e.g TimeZone, Default Connection Timeout. Note, Parameter Group is to be used while creating of DB
 
+### Subnet Group
+
+## Demo
+1. Once DB is created, create an EC2 in the same VPC
+2. Install mySQL Client
+   update packages and install client 
+3. Edit SG of RDS to allow traffic from EC2 instance 
+
+
+## Create Aurora DB
+Aurora is AWS's own engines. This is only available in AWS?  
+1. Upto 5 times the throughput of the MySQL community edition
+1. Upto 5 times the throughput of the Postgres
+2. 128 TB of auto scaling SSD (against 64 TB in non Aurora DBs)
+3. Six-Way replication across three AZs
+4. Upto 15 read replicas
+5. Automatic Monitoring with failover.
+
+### Why is Aurora has such high Throughput?
+Although this seems similar to Multi AZ-DB Cluster for non Aurora RDS that we saw. It has following differences
+1. More  than one Read Replica can be created in each AZ.
+2. Read Replicas can be a diff size than Primary (not sure what is the benefit of this)
+3. Replication is asynchronous (max lag of 10 ms)
+4. Data can also be replicated in other region.
+5. We get two endpoints (Master and Read Replica)
+6. When we have more than one read replica in same AZ, they are created in one Cluster Volume (read more about this)

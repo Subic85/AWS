@@ -227,7 +227,7 @@ NACL als
         1. RuleNumber 100 allow all
         2. Rule Number 99 deny request from Asia 
 
-## VPc Flow Log
+## VPC Flow Log
 VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.Flow log data can be published to the following locations
 1. Amazon CloudWatch Logs, 
 2. Amazon S3
